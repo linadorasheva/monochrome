@@ -1,0 +1,36 @@
+.btn {
+  &--link {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    display: block;
+    width: 115px;
+    height: 70px;
+    border-radius: 3px 0 0 3px;
+    background-color: #c62828;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+.btn__text {
+  display: block;
+  transform: translate(10px, 23px);
+  font-family: 'Georgia', serif;
+  font-size: 0px;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+
+.btn--link:hover {
+  width: 300px;
+  border-radius: 5px;
+  transition-duration: 700ms;
+
+  & .btn__text {
+    transform: translate(115px, 23px);
+    font-size: 20px;
+    transition-delay: 700ms;
+    transition-duration: 700ms;
+  }
+}
