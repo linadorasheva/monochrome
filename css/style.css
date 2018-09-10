@@ -1,6 +1,6 @@
 body {
   min-width: 1360px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Georgia', serif;
   font-size: 18px;
   line-height: 22px;
   background-color: #232323;
@@ -33,22 +33,25 @@ body {
   text-decoration: none;
 }
 .main-nav__link:hover {
-  color: #e27272;
+  color: #ffffff;
   transition-duration: 250ms;
 }
 .logo--header {
   display: inline-block;
   margin-right: 310px;
   padding: 5px;
-  border: 1px dashed #c62828;
+  border: 1px dashed #fff;
   border-radius: 2px;
   font-family: 'Georgia', serif;
   font-size: 20px;
   letter-spacing: 0px;
-  color: #c62828;
+  color: #ffffff;
 }
 .logo--header:hover {
+  border: 1px solid #ffffff;
   cursor: pointer;
+  text-shadow: 0 0 1px #ffffff;
+  transition-duration: 250ms;
 }
 .descript {
   position: relative;
@@ -76,6 +79,9 @@ body {
   font-family: 'Georgia', serif;
   font-size: 50px;
   line-height: 54px;
+}
+.descript__text {
+  font-size: 20px;
 }
 .container {
   display: -ms-flexbox;
@@ -109,7 +115,12 @@ body {
   position: absolute;
   bottom: 20px;
   right: 0;
-  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   width: 115px;
   height: 70px;
   border-radius: 3px 0 0 3px;
@@ -118,12 +129,12 @@ body {
   color: #ffffff;
 }
 .btn__text {
-  display: block;
-  transform: translate(10px, 23px);
+  width: 90px;
   font-family: 'Georgia', serif;
   font-size: 0px;
-  color: #ffffff;
+  color: #red;
   letter-spacing: 1.5px;
+  text-align: center;
 }
 .btn--link:hover {
   width: 300px;
@@ -131,10 +142,9 @@ body {
   transition-duration: 700ms;
 }
 .btn--link:hover .btn__text {
-  transform: translate(115px, 23px);
   font-size: 20px;
-  transition-delay: 700ms;
-  transition-duration: 700ms;
+  color: #ffffff;
+  transition-duration: 800ms;
 }
 .bg {
   width: 620px;
