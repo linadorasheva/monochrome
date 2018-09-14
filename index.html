@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="body body--index">
   <svg style="display: none;">
     <symbol id="social__vk-icon">
       <g>
@@ -66,25 +66,26 @@
 
   <header class="page-header">
     <div class="container container--header">
-      <div class="logo logo--header">monochrome APL</div>
+      <a class="logo logo--header" href="index.html">monochrome APL</a>
       <nav class="main-nav">
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a href=index.html class="main-nav__link">Home</a></li>
+          <li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
           <li class="main-nav__item"><a href="works.html" class="main-nav__link">Works</a></li>
           <li class="main-nav__item"><a href="#" class="main-nav__link">Price&Terms</a></li>
           <li class="main-nav__item"><a href="#" class="main-nav__link">Contacts</a></li>
         </ul>
       </nav>
+      <button class="btn">Открыть</button>
     </div>
   </header>
   <main>
-    <div class="container container--main">
+    <div class="container container--main-index">
       <section class="descript">
         <div class="descript__wrapp">
           <h1 class="descript__title">Monochrome</h1>
           <span class="descript__text">author's photo lab</span>
         </div>
-        <a class="btn btn--link" href="works.html" target="_blank"><span class="btn__text">click me</span></a>
+        <a class="descript__btn" href="works.html"><span class="descript__btn-text">reverse</span></a>
       </section>
       <section class="bg">
       </section>
@@ -112,5 +113,6 @@
       <a class="copyright" href="http://linadorasheva.ru/" target="_blank">by linadorasheva with <span class="copyright__heart">&#9829;</span> | 2018 &#169;</a>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
