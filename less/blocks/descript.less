@@ -1,7 +1,7 @@
 .descript {
   position: relative;
   width: 480px;
-  min-height: 700px;
+  min-height: 600px;
   background-color: #ffffff;
   color: #222222;
 }
@@ -27,4 +27,39 @@
 
 .descript__text {
   font-size: 20px;
+}
+
+.descript__btn {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 70px;
+  border-radius: 3px 0 0 3px;
+  background-color: #c62828;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.descript__btn-text {
+  width: 90px;
+  font-family: 'Georgia', serif;
+  font-size: 0px;
+  color: #c62828;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.descript__btn:hover {
+  width: 300px;
+  transition-duration: 700ms;
+
+  & .descript__btn-text {
+    font-size: 20px;
+    color: #ffffff;
+    transition-duration: 800ms;
+  }
 }
