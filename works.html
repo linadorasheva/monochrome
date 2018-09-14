@@ -5,21 +5,116 @@
   <meta charset="utf-8">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-  <header class="page-header">
+<body class="body body--works">
+<header class="page-header">
     <div class="container container--header">
-      <div class="logo logo--header">monochrome APL</div>
+      <a class="logo logo--header" href="index.html">monochrome APL</a>
       <nav class="main-nav">
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a href=index.html class="main-nav__link">Home</a></li>
+          <li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
           <li class="main-nav__item"><a href="works.html" class="main-nav__link">Works</a></li>
           <li class="main-nav__item"><a href="#" class="main-nav__link">Price&Terms</a></li>
           <li class="main-nav__item"><a href="#" class="main-nav__link">Contacts</a></li>
         </ul>
       </nav>
+      <button class="btn">Открыть</button>
     </div>
   </header>
-  <main></main>
+  <main>
+    <div class="container container--main-works">
+      <section class="works">
+        <h1 class="works__title">Works</h1>
+        <div class="works__wrapp">
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img1_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img2_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img3_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img4_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img5_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img6_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img7_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img8_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img9_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img10_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img11_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+          <article class="works__item">
+            <a class="works__link" href="#">
+              <picture class="works__picture">
+                <img class="works__img" src="img/img12_640.jpg" alt="foto">
+              </picture>
+            </a>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
   <footer class="page-footer">
     <div class="container container--footer">
       <div class="social">
@@ -42,5 +137,12 @@
       <a class="copyright" href="http://linadorasheva.ru/" target="_blank">by linadorasheva with <span class="copyright__heart">&#9829;</span> | 2018 &#169;</a>
     </div>
   </footer>
+  <div class="overlay hidden">
+    <button class="btn btn--overlay-close">x</button>
+    <div class="overlay__preview">
+      <img class="overlay__image" src="" alt="">
+    </div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
