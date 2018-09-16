@@ -10,6 +10,10 @@
   background-color: #232323;
   color: #ffffff;
 }
+body.reverse {
+  background-color: #ffffff;
+  color: #232323;
+}
 .main-nav {
   position: absolute;
   right: 100px;
@@ -24,6 +28,9 @@
   width: 500px;
   height: auto;
   transition-duration: 10ms;
+}
+.main-nav--show.reverse {
+  background-color: #c62828;
 }
 .main-nav__list {
   display: -ms-flexbox;
@@ -55,25 +62,36 @@
   color: #c62828;
   transition-duration: 350ms;
 }
+.main-nav--show.reverse .main-nav__link:hover {
+  color: #232323;
+  transition-duration: 350ms;
+}
 .logo {
   display: block;
-  text-decoration: none;
-  font-family: 'Georgia', serif;
-}
-.logo--header {
   margin-right: 310px;
   padding: 5px;
-  border: 1px dashed #fff;
+  border: 2px dashed #ffffff;
   border-radius: 2px;
+  font-family: 'Georgia', serif;
   font-size: 20px;
+  font-weight: 500;
   letter-spacing: 0px;
+  text-decoration: none;
   color: #ffffff;
 }
-.logo--header:hover {
-  border: 1px solid #ffffff;
+.logo.reverse {
+  border: 2px dashed #c62828;
+  color: #c62828;
+}
+.logo:hover {
+  border: 2px solid #ffffff;
   cursor: pointer;
   text-shadow: 0 0 1px #ffffff;
-  transition-duration: 250ms;
+}
+.logo.reverse:hover {
+  border: 2px solid #232323;
+  color: #232323;
+  cursor: pointer;
 }
 .descript {
   position: relative;
@@ -109,25 +127,24 @@
   position: absolute;
   bottom: 20px;
   right: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   width: 115px;
   height: 70px;
+  padding: 0;
+  border: none;
   border-radius: 3px 0 0 3px;
   background-color: #c62828;
   text-decoration: none;
   color: #ffffff;
+}
+.descript__btn.reverse {
+  background-color: #9A9A9A;
 }
 .descript__btn-text {
   width: 90px;
   font-family: 'Georgia', serif;
   font-size: 0px;
   color: #c62828;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 .descript__btn:hover {
@@ -209,7 +226,7 @@
 }
 .bg {
   width: 620px;
-  background-image: url("/img/flower_crop_1920.jpg");
+  background-image: url("../img/flower_crop_1920.jpg");
   background-repeat: no-repeat;
   background-size: 85%;
   background-position: 0 35%;
@@ -220,6 +237,9 @@
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
+}
+.copyright.reverse {
+  color: #232323;
 }
 .copyright:hover .copyright__heart {
   color: #c62828;

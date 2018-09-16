@@ -33,15 +33,18 @@
   position: absolute;
   bottom: 20px;
   right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 115px;
   height: 70px;
+  padding: 0;
+  border: none;
   border-radius: 3px 0 0 3px;
   background-color: #c62828;
   text-decoration: none;
   color: #ffffff;
+
+  &.reverse {
+    background-color: #9A9A9A;
+  }
 }
 
 .descript__btn-text {
@@ -49,7 +52,7 @@
   font-family: 'Georgia', serif;
   font-size: 0px;
   color: #c62828;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
