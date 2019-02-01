@@ -5,7 +5,7 @@ var navLink = body.querySelector('.main-nav');
 var logo = body.querySelector('.logo');
 var descriptBtn = body.querySelector('.descript__btn');
 var copyright = body.querySelector('.copyright');
-var elementsReverse = [body, navLink, logo, copyright];
+var elementsReverse = [body, navLink, logo, descriptBtn, copyright];
 
 var reverseColor = function (evt) {
   evt.preventDefault();
