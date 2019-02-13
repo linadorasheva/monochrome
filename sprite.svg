@@ -30,6 +30,7 @@
       c-0.003-0.265,0.012-2.595,1.578-3.034C21.369,22.566,21.502,22.548,21.638,22.548z"/>
     </g>
   </symbol>
+
   <symbol id="social__fb-icon">
     <g>
       <path class="social__fb-icon"
@@ -39,6 +40,7 @@
       c-1.041,1.231-1.41,3.298-1.099,6.144l0.092,0.832h-2.786v3.375h2.715V21.541z"/>
     </g>
   </symbol>
+
   <symbol id="social__inst-icon">
     <g class="social__inst-icon">
       <path
